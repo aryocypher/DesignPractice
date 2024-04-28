@@ -6,8 +6,8 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-Singleton si= Singleton.GetInstance();
-Console.WriteLine(si.Text)
+//Singleton si= Singleton.GetInstance();
+//Console.WriteLine(si.Text);
 
 
 namespace CSharpDesignPatternsPractice.Creational.Singleton
