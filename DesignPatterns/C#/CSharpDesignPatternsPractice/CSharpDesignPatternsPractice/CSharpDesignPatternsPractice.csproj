@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Creational\AbstractFactory\" />
-    <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Prototype\" />
   </ItemGroup>
 

@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-IFactory fc= new ConcreteVehicleFactory();
-IProduct bike=fc.GetVehicle("Bike");
-IProduct scooter = fc.GetVehicle("Scooter");
-bike.Drive(10);
-scooter.Drive(20);
+//IFactory fc= new ConcreteVehicleFactory();
+//IProduct bike=fc.GetVehicle("Bike");
+//IProduct scooter = fc.GetVehicle("Scooter");
+//bike.Drive(10);
+//scooter.Drive(20);
 
 
 namespace CSharpDesignPatternsPractice.Creational.Factory
