@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-UserBuilder ub= new UserBuilder();
+//UserBuilder ub= new UserBuilder();
 
-User user= ub.SetName("test").SetEmail("test@gmail.com").SetAddress("some address").Build();
+//User user= ub.SetName("test").SetEmail("test@gmail.com").SetAddress("some address").Build();
 
 namespace CSharpDesignPatternsPractice.Creational.Builder
 {
