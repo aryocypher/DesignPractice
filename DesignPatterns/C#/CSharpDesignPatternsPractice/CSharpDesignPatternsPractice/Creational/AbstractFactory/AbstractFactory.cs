@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-IAbstractFactory ab = new RedVehicleFactory();
-IProductForAbstractFactory product = ab.GetVehicle("Scooter");
-product.Drive(10);
+//IAbstractFactory ab = new RedVehicleFactory();
+//IProductForAbstractFactory product = ab.GetVehicle("Scooter");
+//product.Drive(10);
 
 
 namespace CSharpDesignPatternsPractice.Creational.Factory
