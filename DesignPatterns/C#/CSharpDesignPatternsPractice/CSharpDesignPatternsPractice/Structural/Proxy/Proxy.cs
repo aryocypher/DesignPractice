@@ -1,55 +1,55 @@
 ﻿using System;
 
 
-            // Create proxy and request a service
+// Create proxy and request a service
 
-            Proxy proxy = new Proxy();
-            proxy.Request();
+Proxy proxy = new Proxy();
+proxy.Request();
 
-            // Wait for user
+// Wait for user
 
-            Console.ReadKey();
+Console.ReadKey();
 
 
-    /// <summary>
-    /// The 'Subject' abstract class
-    /// </summary>
+/// <summary>
+/// The 'Subject' abstract class
+/// </summary>
 
-    public abstract class Subject
+public abstract class Subject
+{
+    public abstract void Request();
+}
+
+/// <summary>
+/// The 'RealSubject' class
+/// </summary>
+
+public class RealSubject : Subject
+{
+    public override void Request()
     {
-        public abstract void Request();
+        Console.WriteLine("Called RealSubject.Request()");
     }
+}
 
-    /// <summary>
-    /// The 'RealSubject' class
-    /// </summary>
+/// <summary>
+/// The 'Proxy' class
+/// </summary>
 
-    public class RealSubject : Subject
+public class Proxy : Subject
+{
+    private RealSubject realSubject;
+
+    public override void Request()
     {
-        public override void Request()
+        // Use 'lazy initialization'
+
+        if (realSubject == null)
         {
-            Console.WriteLine("Called RealSubject.Request()");
+            realSubject = new RealSubject();
         }
+
+        realSubject.Request();
     }
-
-    /// <summary>
-    /// The 'Proxy' class
-    /// </summary>
-
-    public class Proxy : Subject
-    {
-        private RealSubject realSubject;
-
-        public override void Request()
-        {
-            // Use 'lazy initialization'
-
-            if (realSubject == null)
-            {
-                realSubject = new RealSubject();
-            }
-
-            realSubject.Request();
-        }
-    }
+}
 
