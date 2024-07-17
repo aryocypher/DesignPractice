@@ -1,15 +1,15 @@
-﻿AbstractEmployee john = new Employee("John","IT");
-AbstractEmployee mike = new Employee("Mike", "Sales");
-AbstractEmployee aru = new Employee("aru", "IT");
-AbstractEmployee eric = new Employee("Eric", "Sales");
-AbstractEmployee jack = new Employee("Jack", "Sales");
+﻿//AbstractEmployee john = new Employee("John","IT");
+//AbstractEmployee mike = new Employee("Mike", "Sales");
+//AbstractEmployee aru = new Employee("aru", "IT");
+//AbstractEmployee eric = new Employee("Eric", "Sales");
+//AbstractEmployee jack = new Employee("Jack", "Sales");
 
-AbstractEmployee cody = new Manager("Cody", "Sales")
-{
-    EmployeesList = {mike,eric,jack }
-};
+//AbstractEmployee cody = new Manager("Cody", "Sales")
+//{
+//    EmployeesList = {mike,eric,jack }
+//};
 
-cody.GetDetails();
+//cody.GetDetails();
 
 
 public abstract class AbstractEmployee

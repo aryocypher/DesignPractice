@@ -1,0 +1,10 @@
+Design a parking system for a parking lot
+Details:-
+It has multiple levels
+Each level of different parking capacity
+Assign car to level randomly
+Checkin and checkout of car
+
+
+
+
