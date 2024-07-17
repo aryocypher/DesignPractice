@@ -1,21 +1,21 @@
-﻿FontFactory fontFactory = new FontFactory();
+﻿//FontFactory fontFactory = new FontFactory();
 
-// Get shared flyweight objects
-IFont font1 = fontFactory.GetFont("Arial");
-IFont font2 = fontFactory.GetFont("Times New Roman");
+//// Get shared flyweight objects
+//IFont font1 = fontFactory.GetFont("Arial");
+//IFont font2 = fontFactory.GetFont("Times New Roman");
 
-// Set intrinsic state
-font1.SetSize(12);
-font1.SetStyle("Regular");
-font1.SetColor("Black");
+//// Set intrinsic state
+//font1.SetSize(12);
+//font1.SetStyle("Regular");
+//font1.SetColor("Black");
 
-font2.SetSize(14);
-font2.SetStyle("Italic");
-font2.SetColor("Red");
+//font2.SetSize(14);
+//font2.SetStyle("Italic");
+//font2.SetColor("Red");
 
-// Use flyweight objects
-font1.Display("Hello, Flyweight Pattern!");
-font2.Display("This is a demonstration.");
+//// Use flyweight objects
+//font1.Display("Hello, Flyweight Pattern!");
+//font2.Display("This is a demonstration.");
 
 interface IFont
 {

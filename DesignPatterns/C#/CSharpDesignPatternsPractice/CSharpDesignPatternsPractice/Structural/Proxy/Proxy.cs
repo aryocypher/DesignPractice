@@ -3,12 +3,12 @@
 
 // Create proxy and request a service
 
-Proxy proxy = new Proxy();
-proxy.Request();
+//Proxy proxy = new Proxy();
+//proxy.Request();
 
-// Wait for user
+//// Wait for user
 
-Console.ReadKey();
+//Console.ReadKey();
 
 
 /// <summary>
