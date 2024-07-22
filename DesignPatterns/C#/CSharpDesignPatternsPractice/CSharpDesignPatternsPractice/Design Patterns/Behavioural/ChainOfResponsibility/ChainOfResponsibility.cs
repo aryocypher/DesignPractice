@@ -1,11 +1,11 @@
-﻿IHandler level1 = new Level1();
+﻿/*IHandler level1 = new Level1();
 IHandler level2 = new Level2();
 IHandler level3 = new Level3();
 level1.SetNextHandler(level2).SetNextHandler(level3);
 
 level1.HandleRequest(9);
 level1.HandleRequest(15);
-level1.HandleRequest(25);
+level1.HandleRequest(25);*/
 
 
 
