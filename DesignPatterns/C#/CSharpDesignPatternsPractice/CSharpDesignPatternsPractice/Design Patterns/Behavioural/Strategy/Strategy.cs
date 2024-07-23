@@ -1,8 +1,8 @@
-﻿ICalulate calulate1 = new Add();
-ICalulate calulate2 = new Subtract();
+﻿//ICalulate calulate1 = new Add();
+//ICalulate calulate2 = new Subtract();
 
-Console.WriteLine(PracticeClass.CalculateValue(calulate1, 10, 5));
-Console.WriteLine(PracticeClass.CalculateValue(calulate2, 10, 5));
+//Console.WriteLine(PracticeClass.CalculateValue(calulate1, 10, 5));
+//Console.WriteLine(PracticeClass.CalculateValue(calulate2, 10, 5));
 
 public static class PracticeClass
 {
