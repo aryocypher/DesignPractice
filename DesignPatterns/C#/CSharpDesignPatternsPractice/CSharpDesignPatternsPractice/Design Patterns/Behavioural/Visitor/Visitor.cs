@@ -1,4 +1,5 @@
-﻿//var emailVisitor = new EmailSender();
+﻿//Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+//var emailVisitor = new EmailSender();
 //var phoneVisitor = new MessageSender();
 //INotificationSenderWithVisitor notification = new InvoiceNotificationSenderWithVisitor();
 //notification.Accept(emailVisitor);
